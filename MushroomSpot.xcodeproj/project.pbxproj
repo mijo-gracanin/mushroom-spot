@@ -11,20 +11,19 @@
 		A6B637832B9C573100D7EAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637822B9C573100D7EAC4 /* ContentView.swift */; };
 		A6B637852B9C573200D7EAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B637842B9C573200D7EAC4 /* Assets.xcassets */; };
 		A6B637882B9C573200D7EAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B637872B9C573200D7EAC4 /* Preview Assets.xcassets */; };
-		A6B637922B9C573200D7EAC4 /* MushroomSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637912B9C573200D7EAC4 /* MushroomSpotTests.swift */; };
-		A6B6379C2B9C573200D7EAC4 /* MushroomSpotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6379B2B9C573200D7EAC4 /* MushroomSpotUITests.swift */; };
-		A6B6379E2B9C573200D7EAC4 /* MushroomSpotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B6379D2B9C573200D7EAC4 /* MushroomSpotUITestsLaunchTests.swift */; };
+		A6B637922B9C573200D7EAC4 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637912B9C573200D7EAC4 /* LoginViewModelTests.swift */; };
+		A6B637AC2B9C58C100D7EAC4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637AB2B9C58C100D7EAC4 /* LoginView.swift */; };
+		A6B637AE2B9C58D500D7EAC4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637AD2B9C58D500D7EAC4 /* LoginViewModel.swift */; };
+		A6BB53232B9CE57D001373C2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53222B9CE57D001373C2 /* NetworkService.swift */; };
+		A6BB53252B9CE6C1001373C2 /* DemoNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */; };
+		A6BB53292B9D1899001373C2 /* MushroomSpotError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53282B9D1899001373C2 /* MushroomSpotError.swift */; };
+		A6BB532C2B9DECE1001373C2 /* MushroomColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */; };
+		A6BB532E2B9DEDF1001373C2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB532D2B9DEDF1001373C2 /* NetworkError.swift */; };
+		A6BB53312B9DEE8C001373C2 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A6B6378E2B9C573200D7EAC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6B637752B9C573100D7EAC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6B6377C2B9C573100D7EAC4;
-			remoteInfo = MushroomSpot;
-		};
-		A6B637982B9C573200D7EAC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6B637752B9C573100D7EAC4 /* Project object */;
 			proxyType = 1;
@@ -40,10 +39,15 @@
 		A6B637842B9C573200D7EAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B637872B9C573200D7EAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6B6378D2B9C573200D7EAC4 /* MushroomSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6B637912B9C573200D7EAC4 /* MushroomSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotTests.swift; sourceTree = "<group>"; };
-		A6B637972B9C573200D7EAC4 /* MushroomSpotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomSpotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6B6379B2B9C573200D7EAC4 /* MushroomSpotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotUITests.swift; sourceTree = "<group>"; };
-		A6B6379D2B9C573200D7EAC4 /* MushroomSpotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6B637912B9C573200D7EAC4 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		A6B637AB2B9C58C100D7EAC4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A6B637AD2B9C58D500D7EAC4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A6BB53222B9CE57D001373C2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetworkService.swift; sourceTree = "<group>"; };
+		A6BB53282B9D1899001373C2 /* MushroomSpotError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotError.swift; sourceTree = "<group>"; };
+		A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MushroomColors.xcassets; sourceTree = "<group>"; };
+		A6BB532D2B9DEDF1001373C2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6B637942B9C573200D7EAC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +73,6 @@
 			children = (
 				A6B6377F2B9C573100D7EAC4 /* MushroomSpot */,
 				A6B637902B9C573200D7EAC4 /* MushroomSpotTests */,
-				A6B6379A2B9C573200D7EAC4 /* MushroomSpotUITests */,
 				A6B6377E2B9C573100D7EAC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +82,6 @@
 			children = (
 				A6B6377D2B9C573100D7EAC4 /* MushroomSpot.app */,
 				A6B6378D2B9C573200D7EAC4 /* MushroomSpotTests.xctest */,
-				A6B637972B9C573200D7EAC4 /* MushroomSpotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +89,11 @@
 		A6B6377F2B9C573100D7EAC4 /* MushroomSpot */ = {
 			isa = PBXGroup;
 			children = (
+				A6BB532A2B9DECBE001373C2 /* Resources */,
+				A6BB53272B9D1883001373C2 /* Errors */,
+				A6BB53262B9D0B9C001373C2 /* Views */,
+				A6BB53212B9CE556001373C2 /* Services */,
 				A6B637802B9C573100D7EAC4 /* MushroomSpotApp.swift */,
-				A6B637822B9C573100D7EAC4 /* ContentView.swift */,
 				A6B637842B9C573200D7EAC4 /* Assets.xcassets */,
 				A6B637862B9C573200D7EAC4 /* Preview Content */,
 			);
@@ -113,18 +111,62 @@
 		A6B637902B9C573200D7EAC4 /* MushroomSpotTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6B637912B9C573200D7EAC4 /* MushroomSpotTests.swift */,
+				A6B637912B9C573200D7EAC4 /* LoginViewModelTests.swift */,
 			);
 			path = MushroomSpotTests;
 			sourceTree = "<group>";
 		};
-		A6B6379A2B9C573200D7EAC4 /* MushroomSpotUITests */ = {
+		A6B637AA2B9C58A700D7EAC4 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				A6B6379B2B9C573200D7EAC4 /* MushroomSpotUITests.swift */,
-				A6B6379D2B9C573200D7EAC4 /* MushroomSpotUITestsLaunchTests.swift */,
+				A6B637AB2B9C58C100D7EAC4 /* LoginView.swift */,
+				A6B637AD2B9C58D500D7EAC4 /* LoginViewModel.swift */,
 			);
-			path = MushroomSpotUITests;
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		A6BB53212B9CE556001373C2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB532F2B9DEE74001373C2 /* Mocks */,
+				A6BB53222B9CE57D001373C2 /* NetworkService.swift */,
+				A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A6BB53262B9D0B9C001373C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6B637AA2B9C58A700D7EAC4 /* LoginView */,
+				A6B637822B9C573100D7EAC4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6BB53272B9D1883001373C2 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB53282B9D1899001373C2 /* MushroomSpotError.swift */,
+				A6BB532D2B9DEDF1001373C2 /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		A6BB532A2B9DECBE001373C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6BB532F2B9DEE74001373C2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +207,6 @@
 			productReference = A6B6378D2B9C573200D7EAC4 /* MushroomSpotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6B637962B9C573200D7EAC4 /* MushroomSpotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6B637A72B9C573200D7EAC4 /* Build configuration list for PBXNativeTarget "MushroomSpotUITests" */;
-			buildPhases = (
-				A6B637932B9C573200D7EAC4 /* Sources */,
-				A6B637942B9C573200D7EAC4 /* Frameworks */,
-				A6B637952B9C573200D7EAC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6B637992B9C573200D7EAC4 /* PBXTargetDependency */,
-			);
-			name = MushroomSpotUITests;
-			productName = MushroomSpotUITests;
-			productReference = A6B637972B9C573200D7EAC4 /* MushroomSpotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +221,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					A6B6378C2B9C573200D7EAC4 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = A6B6377C2B9C573100D7EAC4;
-					};
-					A6B637962B9C573200D7EAC4 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = A6B6377C2B9C573100D7EAC4;
 					};
@@ -221,7 +241,6 @@
 			targets = (
 				A6B6377C2B9C573100D7EAC4 /* MushroomSpot */,
 				A6B6378C2B9C573200D7EAC4 /* MushroomSpotTests */,
-				A6B637962B9C573200D7EAC4 /* MushroomSpotUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,18 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B637882B9C573200D7EAC4 /* Preview Assets.xcassets in Resources */,
+				A6BB532C2B9DECE1001373C2 /* MushroomColors.xcassets in Resources */,
 				A6B637852B9C573200D7EAC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A6B6378B2B9C573200D7EAC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6B637952B9C573200D7EAC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6BB53232B9CE57D001373C2 /* NetworkService.swift in Sources */,
+				A6BB532E2B9DEDF1001373C2 /* NetworkError.swift in Sources */,
+				A6BB53252B9CE6C1001373C2 /* DemoNetworkService.swift in Sources */,
+				A6B637AE2B9C58D500D7EAC4 /* LoginViewModel.swift in Sources */,
+				A6B637AC2B9C58C100D7EAC4 /* LoginView.swift in Sources */,
+				A6BB53292B9D1899001373C2 /* MushroomSpotError.swift in Sources */,
+				A6BB53312B9DEE8C001373C2 /* MockNetworkService.swift in Sources */,
 				A6B637832B9C573100D7EAC4 /* ContentView.swift in Sources */,
 				A6B637812B9C573100D7EAC4 /* MushroomSpotApp.swift in Sources */,
 			);
@@ -266,16 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B637922B9C573200D7EAC4 /* MushroomSpotTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6B637932B9C573200D7EAC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6B6379E2B9C573200D7EAC4 /* MushroomSpotUITestsLaunchTests.swift in Sources */,
-				A6B6379C2B9C573200D7EAC4 /* MushroomSpotUITests.swift in Sources */,
+				A6B637922B9C573200D7EAC4 /* LoginViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +297,6 @@
 			isa = PBXTargetDependency;
 			target = A6B6377C2B9C573100D7EAC4 /* MushroomSpot */;
 			targetProxy = A6B6378E2B9C573200D7EAC4 /* PBXContainerItemProxy */;
-		};
-		A6B637992B9C573200D7EAC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6B6377C2B9C573100D7EAC4 /* MushroomSpot */;
-			targetProxy = A6B637982B9C573200D7EAC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -508,40 +514,6 @@
 			};
 			name = Release;
 		};
-		A6B637A82B9C573200D7EAC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mijocoder.MushroomSpotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MushroomSpot;
-			};
-			name = Debug;
-		};
-		A6B637A92B9C573200D7EAC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mijocoder.MushroomSpotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MushroomSpot;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,15 +540,6 @@
 			buildConfigurations = (
 				A6B637A52B9C573200D7EAC4 /* Debug */,
 				A6B637A62B9C573200D7EAC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6B637A72B9C573200D7EAC4 /* Build configuration list for PBXNativeTarget "MushroomSpotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6B637A82B9C573200D7EAC4 /* Debug */,
-				A6B637A92B9C573200D7EAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
