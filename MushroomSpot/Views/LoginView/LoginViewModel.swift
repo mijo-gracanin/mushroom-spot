@@ -34,6 +34,8 @@ import SwiftUI
     var isLoginEnabled: Bool { isEmailValid && isPasswordValid }
     
     let networkService: NetworkService
+    var rootViewModel: RootViewModel?
+    var isLoading = false
     
     init(networkService: NetworkService) {
         self.networkService = networkService
@@ -41,7 +43,10 @@ import SwiftUI
     
     func login() {
         Task {
-            try await networkService.login(email: email, password: password)
+            isLoading = true
+            _ = try await networkService.login(email: email, password: password)
+            rootViewModel?.isUserLoggedIn = true
+            isLoading = false
         }
     }
     

@@ -10,6 +10,11 @@ import SwiftUI
 struct LoginView: View {
     
     @State var viewModel = LoginViewModel(networkService: DemoNetworkService())
+    @Environment(RootViewModel.self) private var rootViewModel: RootViewModel?
+    
+    init(networService: NetworkService) {
+        viewModel = LoginViewModel(networkService: networService)
+    }
     
     var body: some View {
         VStack {
@@ -41,18 +46,27 @@ struct LoginView: View {
             
             Spacer()
             
-            Button("Login") {
-                viewModel.login()
+            if viewModel.isLoading {
+                ProgressView()
+            } else {
+                Button("Login") {
+                    viewModel.login()
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(Color.mushroomGreen)
+                .disabled(!viewModel.isLoginEnabled)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(Color.mushroomGreen)
-            .disabled(!viewModel.isLoginEnabled)
             
         }
+        .animation(.easeIn, value: viewModel.isLoginEnabled)
+        .animation(.easeIn, value: viewModel.isLoading)
         .background(Color.brown)
+        .onAppear(perform: {
+            viewModel.rootViewModel = rootViewModel
+        })
     }
 }
 
 #Preview {
-    LoginView()
+    LoginView(networService: MockNetworkService())
 }

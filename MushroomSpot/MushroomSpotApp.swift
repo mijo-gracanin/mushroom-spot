@@ -11,7 +11,13 @@ import SwiftUI
 struct MushroomSpotApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isProduction {
+                RootView()
+            }
         }
     }
+    
+    private var isProduction: Bool {
+            NSClassFromString("XCTestCase") == nil
+        }
 }

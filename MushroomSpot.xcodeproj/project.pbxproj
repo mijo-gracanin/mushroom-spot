@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A698BCC82B9FAB12005756B3 /* String+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698BCC72B9FAB12005756B3 /* String+UIImage.swift */; };
+		A698BCCB2BA072EF005756B3 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698BCCA2BA072EF005756B3 /* DetailsView.swift */; };
+		A698BCCE2BA07AD9005756B3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698BCCD2BA07AD9005756B3 /* ProfileView.swift */; };
+		A698BCD02BA07AF0005756B3 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698BCCF2BA07AF0005756B3 /* ProfileViewModel.swift */; };
+		A698BCD22BA09B6E005756B3 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A698BCD12BA09B6E005756B3 /* Profile.swift */; };
+		A698BCD42BA09DAC005756B3 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = A698BCD32BA09DAC005756B3 /* profile.json */; };
 		A6B637812B9C573100D7EAC4 /* MushroomSpotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637802B9C573100D7EAC4 /* MushroomSpotApp.swift */; };
-		A6B637832B9C573100D7EAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637822B9C573100D7EAC4 /* ContentView.swift */; };
 		A6B637852B9C573200D7EAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B637842B9C573200D7EAC4 /* Assets.xcassets */; };
 		A6B637882B9C573200D7EAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B637872B9C573200D7EAC4 /* Preview Assets.xcassets */; };
 		A6B637922B9C573200D7EAC4 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B637912B9C573200D7EAC4 /* LoginViewModelTests.swift */; };
@@ -17,9 +22,14 @@
 		A6BB53232B9CE57D001373C2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53222B9CE57D001373C2 /* NetworkService.swift */; };
 		A6BB53252B9CE6C1001373C2 /* DemoNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */; };
 		A6BB53292B9D1899001373C2 /* MushroomSpotError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53282B9D1899001373C2 /* MushroomSpotError.swift */; };
-		A6BB532C2B9DECE1001373C2 /* MushroomColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */; };
 		A6BB532E2B9DEDF1001373C2 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB532D2B9DEDF1001373C2 /* NetworkError.swift */; };
 		A6BB53312B9DEE8C001373C2 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */; };
+		A6BB53342B9E55ED001373C2 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53332B9E55ED001373C2 /* RootViewModel.swift */; };
+		A6BB53362B9E55FA001373C2 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53352B9E55FA001373C2 /* RootView.swift */; };
+		A6BB53392B9E60C9001373C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB53382B9E60C9001373C2 /* HomeView.swift */; };
+		A6BB533B2B9E60DC001373C2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB533A2B9E60DC001373C2 /* HomeViewModel.swift */; };
+		A6BB533E2B9E618B001373C2 /* Mushroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BB533D2B9E618B001373C2 /* Mushroom.swift */; };
+		A6BB53402B9E657F001373C2 /* mushrooms.json in Resources */ = {isa = PBXBuildFile; fileRef = A6BB533F2B9E657F001373C2 /* mushrooms.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A698BCC72B9FAB12005756B3 /* String+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UIImage.swift"; sourceTree = "<group>"; };
+		A698BCCA2BA072EF005756B3 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		A698BCCD2BA07AD9005756B3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A698BCCF2BA07AF0005756B3 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		A698BCD12BA09B6E005756B3 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A698BCD32BA09DAC005756B3 /* profile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
 		A6B6377D2B9C573100D7EAC4 /* MushroomSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushroomSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B637802B9C573100D7EAC4 /* MushroomSpotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotApp.swift; sourceTree = "<group>"; };
-		A6B637822B9C573100D7EAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6B637842B9C573200D7EAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6B637872B9C573200D7EAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6B6378D2B9C573200D7EAC4 /* MushroomSpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MushroomSpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,9 +60,14 @@
 		A6BB53222B9CE57D001373C2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetworkService.swift; sourceTree = "<group>"; };
 		A6BB53282B9D1899001373C2 /* MushroomSpotError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomSpotError.swift; sourceTree = "<group>"; };
-		A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MushroomColors.xcassets; sourceTree = "<group>"; };
 		A6BB532D2B9DEDF1001373C2 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		A6BB53332B9E55ED001373C2 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		A6BB53352B9E55FA001373C2 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A6BB53382B9E60C9001373C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A6BB533A2B9E60DC001373C2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A6BB533D2B9E618B001373C2 /* Mushroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mushroom.swift; sourceTree = "<group>"; };
+		A6BB533F2B9E657F001373C2 /* mushrooms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mushrooms.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A698BCC62B9FAAFE005756B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A698BCC72B9FAB12005756B3 /* String+UIImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A698BCC92BA07289005756B3 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				A698BCCA2BA072EF005756B3 /* DetailsView.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		A698BCCC2BA07ABA005756B3 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				A698BCCD2BA07AD9005756B3 /* ProfileView.swift */,
+				A698BCCF2BA07AF0005756B3 /* ProfileViewModel.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
 		A6B637742B9C573100D7EAC4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,13 +134,15 @@
 		A6B6377F2B9C573100D7EAC4 /* MushroomSpot */ = {
 			isa = PBXGroup;
 			children = (
-				A6BB532A2B9DECBE001373C2 /* Resources */,
-				A6BB53272B9D1883001373C2 /* Errors */,
-				A6BB53262B9D0B9C001373C2 /* Views */,
-				A6BB53212B9CE556001373C2 /* Services */,
 				A6B637802B9C573100D7EAC4 /* MushroomSpotApp.swift */,
 				A6B637842B9C573200D7EAC4 /* Assets.xcassets */,
+				A6BB53272B9D1883001373C2 /* Errors */,
+				A698BCC62B9FAAFE005756B3 /* Extensions */,
+				A6BB533C2B9E6177001373C2 /* Models */,
 				A6B637862B9C573200D7EAC4 /* Preview Content */,
+				A6BB532A2B9DECBE001373C2 /* Resources */,
+				A6BB53212B9CE556001373C2 /* Services */,
+				A6BB53262B9D0B9C001373C2 /* Views */,
 			);
 			path = MushroomSpot;
 			sourceTree = "<group>";
@@ -129,8 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				A6BB532F2B9DEE74001373C2 /* Mocks */,
-				A6BB53222B9CE57D001373C2 /* NetworkService.swift */,
 				A6BB53242B9CE6C0001373C2 /* DemoNetworkService.swift */,
+				A6BB53222B9CE57D001373C2 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -138,8 +185,11 @@
 		A6BB53262B9D0B9C001373C2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A698BCC92BA07289005756B3 /* DetailsView */,
+				A6BB53372B9E60AC001373C2 /* HomeView */,
 				A6B637AA2B9C58A700D7EAC4 /* LoginView */,
-				A6B637822B9C573100D7EAC4 /* ContentView.swift */,
+				A698BCCC2BA07ABA005756B3 /* ProfileView */,
+				A6BB53322B9E55B3001373C2 /* RootView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,7 +206,8 @@
 		A6BB532A2B9DECBE001373C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A6BB532B2B9DECE1001373C2 /* MushroomColors.xcassets */,
+				A6BB533F2B9E657F001373C2 /* mushrooms.json */,
+				A698BCD32BA09DAC005756B3 /* profile.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -167,6 +218,33 @@
 				A6BB53302B9DEE8C001373C2 /* MockNetworkService.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		A6BB53322B9E55B3001373C2 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB53352B9E55FA001373C2 /* RootView.swift */,
+				A6BB53332B9E55ED001373C2 /* RootViewModel.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		A6BB53372B9E60AC001373C2 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB53382B9E60C9001373C2 /* HomeView.swift */,
+				A6BB533A2B9E60DC001373C2 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		A6BB533C2B9E6177001373C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB533D2B9E618B001373C2 /* Mushroom.swift */,
+				A698BCD12BA09B6E005756B3 /* Profile.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B637882B9C573200D7EAC4 /* Preview Assets.xcassets in Resources */,
-				A6BB532C2B9DECE1001373C2 /* MushroomColors.xcassets in Resources */,
+				A698BCD42BA09DAC005756B3 /* profile.json in Resources */,
 				A6B637852B9C573200D7EAC4 /* Assets.xcassets in Resources */,
+				A6BB53402B9E657F001373C2 /* mushrooms.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +349,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A698BCC82B9FAB12005756B3 /* String+UIImage.swift in Sources */,
+				A6BB53342B9E55ED001373C2 /* RootViewModel.swift in Sources */,
 				A6BB53232B9CE57D001373C2 /* NetworkService.swift in Sources */,
 				A6BB532E2B9DEDF1001373C2 /* NetworkError.swift in Sources */,
 				A6BB53252B9CE6C1001373C2 /* DemoNetworkService.swift in Sources */,
 				A6B637AE2B9C58D500D7EAC4 /* LoginViewModel.swift in Sources */,
 				A6B637AC2B9C58C100D7EAC4 /* LoginView.swift in Sources */,
+				A698BCD22BA09B6E005756B3 /* Profile.swift in Sources */,
 				A6BB53292B9D1899001373C2 /* MushroomSpotError.swift in Sources */,
+				A698BCCE2BA07AD9005756B3 /* ProfileView.swift in Sources */,
 				A6BB53312B9DEE8C001373C2 /* MockNetworkService.swift in Sources */,
-				A6B637832B9C573100D7EAC4 /* ContentView.swift in Sources */,
+				A6BB533B2B9E60DC001373C2 /* HomeViewModel.swift in Sources */,
+				A6BB533E2B9E618B001373C2 /* Mushroom.swift in Sources */,
+				A698BCCB2BA072EF005756B3 /* DetailsView.swift in Sources */,
+				A698BCD02BA07AF0005756B3 /* ProfileViewModel.swift in Sources */,
+				A6BB53392B9E60C9001373C2 /* HomeView.swift in Sources */,
 				A6B637812B9C573100D7EAC4 /* MushroomSpotApp.swift in Sources */,
+				A6BB53362B9E55FA001373C2 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +516,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MushroomSpot/Preview Content\"";
+				DEVELOPMENT_TEAM = HF4YG7BK3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -456,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MushroomSpot/Preview Content\"";
+				DEVELOPMENT_TEAM = HF4YG7BK3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
